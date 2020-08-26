@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/todayScreen">
+    <fragment
+        android:id="@+id/todayScreen"
+        android:name="com.akvelon.todolist.ui.screens.today.TodayFragment"
+        android:label="TodayScreen"
+        tools:layout="@layout/fragment_today" />
+    <fragment
+        android:id="@+id/allScreen"
+        android:name="com.akvelon.todolist.ui.screens.all.AllFragment"
+        android:label="AllScreen"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/settingsScreen"
+        android:name="com.akvelon.todolist.ui.screens.settings.SettingsFragment"
+        android:label="SettingsScreen"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

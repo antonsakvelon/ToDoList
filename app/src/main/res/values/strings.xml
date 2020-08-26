@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="unexpected_error">Unexpected error. Please, contact support</string>
+    <string name="today">Today to-dos</string>
+    <string name="all">All to-dos</string>
+    <string name="settings">Settings</string>
+    <string name="show_done_todos">Show done To-dos</string>
+    <string name="toDoName">To-do\'s name:</string>
+    <string name="toDoDescription">To-do\'s description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="empty_todo_error">Please, fill the to-do name field</string>
+</resources>
