@@ -21,7 +21,7 @@ class SettingsFragmentTest {
         reportHelper.label("Stopping App")
     }
 
-    @Rule
+    @get:Rule
     var reportHelper: ReportHelper = Factory.getReportHelper()
 
     @Test
